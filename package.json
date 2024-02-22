@@ -1,15 +1,27 @@
 {
-  "name": "cli-weather",
+  "name": "cli-weather-my-first",
   "version": "1.0.0",
   "description": "cli for getting weather",
   "main": "weather.js",
   "type": "module",
+  "keywords": [
+    "cli",
+    "weather"
+  ],
   "bin": {
     "weather": "weather.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node weather.js"
+  },
+  "bugs": {
+    "email": "sergejpakin49@gmail.com",
+    "url": "https://github.com/Pacman08071993/weather-cli/blob/main/weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pacman08071993/weather-cli/blob/main/weather.js"
   },
   "author": "Pakin Sergej",
   "license": "ISC",
